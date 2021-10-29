@@ -1,0 +1,26 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575; */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2F303A */
+/* оснновной цвет фона #E5E5E5 */
+
+body {
+  color: #757575;
+  background: #e5e5e5;
+}
+.list {
+  list-style: none;
+}
+.site-nav {
+  color: #212121;
+}
+.contacts-nav {
+  color: #757575;
+}
+.site-nav:hover,
+.site-nav:focus,
+.contacts-nav:hover,
+.contacts-nav:focus {
+  color: #2196f3;
+}
