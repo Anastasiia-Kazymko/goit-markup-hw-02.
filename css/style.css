@@ -3,12 +3,13 @@
 /* белый #FFFFFF  */
 /* акцент #2196F3 */
 /* вторичный цвет фона #2F303A , #F5F4FA*/
-/* оснновной цвет фона #E5E5E5 */
+/* оснновной цвет фона #ffffff*/
 :root {
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --acent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-text-color: #2f303a;
 }
 body {
   color: var(--primery-text-color);
@@ -16,7 +17,7 @@ body {
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-text-color);
 }
 .list {
   list-style: none;
@@ -24,6 +25,10 @@ footer {
 .site-nav .link {
   color: var(--title-text-color);
 }
+.site-nav .link.current {
+  color: var(--acent-color);
+}
+
 .contacts-nav .link {
   color: var(--primery-text-color);
 }
@@ -39,11 +44,28 @@ footer {
 
 /*Hero*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-text-color);
 }
 .hero-title {
   color: #ffffff;
 }
+
+/*button*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+.button.primery {
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+
+/*.button.services {
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+*/
 
 /*section*/
 
