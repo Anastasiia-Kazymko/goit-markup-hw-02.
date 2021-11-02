@@ -1,15 +1,10 @@
-/* цвет основного текста #212121 */
-/* вторичный цвет текста  #757575; */
-/* белый #FFFFFF  */
-/* акцент #2196F3 */
-/* вторичный цвет фона #2F303A , #F5F4FA*/
-/* оснновной цвет фона #ffffff*/
 :root {
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --acent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-text-color: #2f303a;
+  --color-footer-link: rgba(255, 255, 255, 0.6);
 }
 body {
   color: var(--primery-text-color);
@@ -71,7 +66,7 @@ footer {
   background-color: var(--secondary-text-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -134,11 +129,11 @@ footer {
 }
 /*footer*/
 .list .address {
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
 }
 .footer-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-footer-link);
   text-decoration: none;
 }
 /*portfolio*/
