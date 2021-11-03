@@ -45,7 +45,11 @@ footer {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav .link:focus,
+.list .address:hover,
+.list .address:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--acent-color);
 }
 
@@ -91,6 +95,11 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+}
+.button.services:hover,
+.button.services:focus {
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
 }
 
 /*section*/
